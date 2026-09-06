@@ -1,0 +1,71 @@
+{
+  "branding": {
+    "primary_color": "#2563eb",
+    "accent_color": "#0ea5e9"
+  },
+  "features_toggle": {
+    "show_pricing": false,
+    "show_whatsapp_float": true
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    "service_1_image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80",
+    "service_2_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+    "service_3_image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80"
+  },
+  "contact": {
+    "email": "kmsd@sdff.com",
+    "phone": "+1234567890",
+    "whatsapp": "+1234567890"
+  },
+  "en": {
+    "business_name": "Test 550",
+    "tagline": "Innovative Marketing for the Modern Era",
+    "hero_badge": "Marketing Excellence",
+    "hero_title": "orange",
+    "hero_desc": "kjfkdsjfkjsldkf",
+    "primary_cta": "Get Started",
+    "secondary_cta": "Explore Services",
+    "services_title": "Everything You Need in One Place",
+    "services_desc": "Tailored solutions built to help your business scale.",
+    "services": [
+      {
+        "title": "Marketing",
+        "desc": "Data-driven marketing strategies designed to increase reach and maximize impact."
+      },
+      {
+        "title": "Retailing",
+        "desc": "Modern retail solutions to streamline operations and enhance customer experience."
+      },
+      {
+        "title": "Pricing",
+        "desc": "Advanced pricing optimization to ensure competitiveness and drive growth."
+      }
+    ]
+  },
+  "ar": {
+    "business_name": "Test 550",
+    "tagline": "تسويق مبتكر للعصر الحديث",
+    "hero_badge": "التميز التسويقي",
+    "hero_title": "برتقالي",
+    "hero_desc": "kjfkdsjfkjsldkf",
+    "primary_cta": "ابدأ الآن",
+    "secondary_cta": "استكشف الخدمات",
+    "services_title": "كل ما تحتاجه في مكان واحد",
+    "services_desc": "حلول مصممة خصيصاً لمساعدة عملك على التوسع والنمو.",
+    "services": [
+      {
+        "title": "التسويق",
+        "desc": "استراتيجيات تسويقية قائمة على البيانات مصممة لزيادة الانتشار وتحقيق أقصى تأثير."
+      },
+      {
+        "title": "تجارة التجزئة",
+        "desc": "حلول تجزئة حديثة لتبسيط العمليات وتحسين تجربة العملاء."
+      },
+      {
+        "title": "التسعير",
+        "desc": "تحسين متقدم للتسعير لضمان التنافسية ودفع عجلة النمو."
+      }
+    ]
+  }
+}
