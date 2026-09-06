@@ -30,16 +30,16 @@
     "services_desc": "New Title",
     "services": [
       {
-        "title": "Consulting",
-        "desc": "Professional advice to help your business navigate complex market challenges."
+        "title": "Digital Marketing",
+        "desc": "Strategic digital campaigns designed to boost your brand visibility and engagement."
       },
       {
-        "title": "Management",
-        "desc": "Efficient management solutions to streamline your workflow and operations."
+        "title": "Market Analysis",
+        "desc": "In-depth data insights to help you understand trends and outperform your competition."
       },
       {
-        "title": "Development",
-        "desc": "Strategic development plans focused on long-term growth and success."
+        "title": "Creative Solutions",
+        "desc": "Innovative design and content strategies that resonate with your target audience."
       }
     ]
   },
@@ -55,16 +55,16 @@
     "services_desc": "عنوان جديد",
     "services": [
       {
-        "title": "الاستشارات",
-        "desc": "مشورة مهنية لمساعدة عملك على مواجهة تحديات السوق المعقدة."
+        "title": "التسويق الرقمي",
+        "desc": "حملات رقمية استراتيجية مصممة لتعزيز رؤية علامتك التجارية وتفاعلها."
       },
       {
-        "title": "الإدارة",
-        "desc": "حلول إدارة فعالة لتبسيط سير العمل والعمليات الخاصة بك."
+        "title": "تحليل السوق",
+        "desc": "رؤى بيانات متعمقة لمساعدتك على فهم الاتجاهات والتفوق على منافسيك."
       },
       {
-        "title": "التطوير",
-        "desc": "خطط تطوير استراتيجية تركز على النمو والنجاح على المدى الطويل."
+        "title": "حلول إبداعية",
+        "desc": "استراتيجيات تصميم ومحتوى مبتكرة تلقى صدى لدى جمهورك المستهدف."
       }
     ]
   }
