@@ -27,19 +27,19 @@
     "primary_cta": "Get Started",
     "secondary_cta": "Explore Services",
     "services_title": "Everything You Need in One Place",
-    "services_desc": "Tailored solutions built to help your business scale.",
+    "services_desc": "New Title",
     "services": [
       {
-        "title": "Marketing",
-        "desc": "Data-driven marketing strategies designed to increase reach and maximize impact."
+        "title": "Consulting",
+        "desc": "Professional advice to help your business navigate complex market challenges."
       },
       {
-        "title": "Retailing",
-        "desc": "Modern retail solutions to streamline operations and enhance customer experience."
+        "title": "Management",
+        "desc": "Efficient management solutions to streamline your workflow and operations."
       },
       {
-        "title": "Pricing",
-        "desc": "Advanced pricing optimization to ensure competitiveness and drive growth."
+        "title": "Development",
+        "desc": "Strategic development plans focused on long-term growth and success."
       }
     ]
   },
@@ -52,19 +52,19 @@
     "primary_cta": "ابدأ الآن",
     "secondary_cta": "استكشف الخدمات",
     "services_title": "كل ما تحتاجه في مكان واحد",
-    "services_desc": "حلول مصممة خصيصاً لمساعدة عملك على التوسع والنمو.",
+    "services_desc": "عنوان جديد",
     "services": [
       {
-        "title": "التسويق",
-        "desc": "استراتيجيات تسويقية قائمة على البيانات مصممة لزيادة الانتشار وتحقيق أقصى تأثير."
+        "title": "الاستشارات",
+        "desc": "مشورة مهنية لمساعدة عملك على مواجهة تحديات السوق المعقدة."
       },
       {
-        "title": "تجارة التجزئة",
-        "desc": "حلول تجزئة حديثة لتبسيط العمليات وتحسين تجربة العملاء."
+        "title": "الإدارة",
+        "desc": "حلول إدارة فعالة لتبسيط سير العمل والعمليات الخاصة بك."
       },
       {
-        "title": "التسعير",
-        "desc": "تحسين متقدم للتسعير لضمان التنافسية ودفع عجلة النمو."
+        "title": "التطوير",
+        "desc": "خطط تطوير استراتيجية تركز على النمو والنجاح على المدى الطويل."
       }
     ]
   }
