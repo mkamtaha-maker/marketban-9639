@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="meta-title">Modern Business Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: 'var(--primary-color, #2563eb)',
+            accent: 'var(--accent-color, #0ea5e9)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --accent-color: #0ea5e9;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-brand selection:text-white">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span id="nav-logo-badge" class="w-8 h-8 rounded-lg bg-brand text-white flex items-center justify-center font-bold text-lg">S</span>
+        <span id="nav-business-name" class="font-bold text-xl tracking-tight text-slate-800">Business</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#services" class="hover:text-brand transition">Services</a>
+        <a href="#about" class="hover:text-brand transition">About</a>
+        <a href="#pricing" id="nav-pricing-link" class="hover:text-brand transition">Pricing</a>
+        <a href="ar.html" class="text-xs border border-slate-300 rounded px-2.5 py-1 hover:bg-slate-100 transition">العربية</a>
+      </nav>
+      <a href="#contact" id="nav-cta" class="bg-brand text-white text-sm font-semibold px-4 py-2 rounded-lg hover:opacity-90 transition shadow-sm">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div id="hero-badge" class="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider text-brand uppercase bg-blue-50 rounded-full border border-blue-100">
+          NEXT-GEN BUSINESS PLATFORM
+        </div>
+        <h1 id="hero-title" class="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight mb-6">
+          Empowering Your Brand to Soar Above the Competition
+        </h1>
+        <p id="hero-desc" class="text-lg text-slate-600 mb-8 leading-relaxed">
+          We deliver heroic marketing strategies that drive growth, increase visibility, and transform your digital presence into a powerhouse of success.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" id="hero-primary-cta" class="bg-brand text-white font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition shadow">
+            Elevate Your Brand
+          </a>
+          <a href="#services" id="hero-secondary-cta" class="border border-slate-300 text-slate-700 font-semibold px-6 py-3 rounded-lg hover:bg-slate-100 transition">
+            Explore Features
+          </a>
+        </div>
+      </div>
+      <div class="relative">
+        <img id="hero-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Hero Media" class="rounded-2xl shadow-xl border border-slate-200 object-cover w-full h-[380px]" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Features Section -->
+  <section id="services" class="py-20 px-6 bg-white border-y border-slate-200">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 id="services-main-title" class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Everything You Need in One Place</h2>
+        <p id="services-main-desc" class="text-slate-600">Tailored digital solutions built to help your business scale efficiently.</p>
+      </div>
+
+      <div id="services-container" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service Card 1 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition flex flex-col">
+          <img class="service-img w-full h-44 object-cover" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80" alt="Service 1" />
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="service-title text-xl font-bold mb-2">Digital Strategy</h3>
+              <p class="service-desc text-slate-600 text-sm leading-relaxed">Comprehensive roadmaps designed to align your brand goals with market opportunities.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Service Card 2 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition flex flex-col">
+          <img class="service-img w-full h-44 object-cover" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Service 2" />
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="service-title text-xl font-bold mb-2">Performance Marketing</h3>
+              <p class="service-desc text-slate-600 text-sm leading-relaxed">Data-focused advertising campaigns that optimize your budget and deliver measurable results.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition flex flex-col">
+          <img class="service-img w-full h-44 object-cover" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80" alt="Service 3" />
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="service-title text-xl font-bold mb-2">Social Media Management</h3>
+              <p class="service-desc text-slate-600 text-sm leading-relaxed">Building powerful online communities and engaging content that keeps your audience connected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing-section" class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Simple, Transparent Pricing</h2>
+      <p class="text-slate-600">Choose the right tier to kickstart your project.</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <h3 class="font-bold text-xl mb-2">Starter Package</h3>
+        <p class="text-3xl font-black mb-6">$499</p>
+        <ul class="text-sm text-slate-600 space-y-3 mb-8">
+          <li>✓ Core Platform Setup</li>
+          <li>✓ High-Conversion Landing Page</li>
+          <li>✓ Basic Analytics Integration</li>
+        </ul>
+        <a href="#contact" class="block text-center w-full py-3 border border-slate-300 rounded-lg font-semibold hover:bg-slate-100 transition">Get Started</a>
+      </div>
+      <div class="bg-white p-8 rounded-2xl border-2 border-brand shadow-lg relative">
+        <span class="absolute -top-3 right-6 bg-brand text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Most Popular</span>
+        <h3 class="font-bold text-xl mb-2">Growth Suite</h3>
+        <p class="text-3xl font-black mb-6">$999</p>
+        <ul class="text-sm text-slate-600 space-y-3 mb-8">
+          <li>✓ Everything in Starter</li>
+          <li>✓ Full Dynamic Content Automation</li>
+          <li>✓ Priority 24/7 Support</li>
+        </ul>
+        <a href="#contact" class="block text-center w-full py-3 bg-brand text-white rounded-lg font-semibold hover:opacity-90 transition">Upgrade Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a id="whatsapp-float" href="#" target="_blank" class="fixed bottom-6 right-6 hidden bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 rounded-full shadow-lg transition-transform hover:scale-110 z-50">
+    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.842-.981z"/>
+    </svg>
+  </a>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-slate-900 text-slate-400 py-12 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div>
+        <p id="footer-brand" class="text-white font-bold text-lg mb-1">Business Name</p>
+        <p id="footer-tagline" class="text-xs">Delivering digital excellence</p>
+      </div>
+      <div class="text-sm text-center md:text-right space-y-1">
+        <p id="contact-email">contact@example.com</p>
+        <p id="contact-phone">+1 234 567 890</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Dynamic Data Injection Script (English) -->
+  <script>
+    async function loadData() {
+      try {
+        const response = await fetch('data.json?t=' + new Date().getTime());
+        if (!response.ok) return;
+        const data = await response.json();
+
+        // 1. Branding / Colors
+        if (data.branding?.primary_color) {
+          document.documentElement.style.setProperty('--primary-color', data.branding.primary_color);
+        }
+        if (data.branding?.accent_color) {
+          document.documentElement.style.setProperty('--accent-color', data.branding.accent_color);
+        }
+
+        // 2. Media / Images
+        if (data.media?.hero_image) {
+          const heroImg = document.getElementById('hero-img');
+          if (heroImg) heroImg.src = data.media.hero_image;
+        }
+
+        // 3. English Content (data.en)
+        const content = data.en;
+        if (content) {
+          if (content.business_name) {
+            document.getElementById('nav-business-name').textContent = content.business_name;
+            document.getElementById('footer-brand').textContent = content.business_name;
+            document.getElementById('nav-logo-badge').textContent = content.business_name.charAt(0);
+            document.title = content.business_name + (content.tagline ? ' - ' + content.tagline : '');
+          }
+          if (content.tagline) document.getElementById('footer-tagline').textContent = content.tagline;
+
+          if (content.hero_badge) document.getElementById('hero-badge').textContent = content.hero_badge;
+          if (content.hero_title) document.getElementById('hero-title').textContent = content.hero_title;
+          if (content.hero_desc) document.getElementById('hero-desc').textContent = content.hero_desc;
+          if (content.primary_cta) document.getElementById('hero-primary-cta').textContent = content.primary_cta;
+          if (content.secondary_cta) document.getElementById('hero-secondary-cta').textContent = content.secondary_cta;
+
+          if (content.services_title) document.getElementById('services-main-title').textContent = content.services_title;
+          if (content.services_desc) document.getElementById('services-main-desc').textContent = content.services_desc;
+
+          if (Array.isArray(content.services)) {
+            const cards = document.querySelectorAll('#services-container > div');
+            content.services.forEach((service, index) => {
+              if (cards[index]) {
+                const titleEl = cards[index].querySelector('.service-title');
+                const descEl = cards[index].querySelector('.service-desc');
+                const imgEl = cards[index].querySelector('.service-img');
+                if (titleEl) titleEl.textContent = service.title;
+                if (descEl) descEl.textContent = service.desc;
+                if (imgEl && data.media && data.media[`service_${index + 1}_image`]) {
+                  imgEl.src = data.media[`service_${index + 1}_image`];
+                }
+              }
+            });
+          }
+        }
+
+        // 4. Feature Toggles & Contact
+        if (data.features_toggle) {
+          if (data.features_toggle.show_pricing === false) {
+            const pricing = document.getElementById('pricing-section');
+            if (pricing) pricing.style.display = 'none';
+            const navPricing = document.getElementById('nav-pricing-link');
+            if (navPricing) navPricing.style.display = 'none';
+          }
+          if (data.features_toggle.show_whatsapp_float && data.contact?.whatsapp) {
+            const waBtn = document.getElementById('whatsapp-float');
+            if (waBtn) {
+              waBtn.href = `https://wa.me/${data.contact.whatsapp.replace(/[^0-9]/g, '')}`;
+              waBtn.classList.remove('hidden');
+            }
+          }
+        }
+
+        if (data.contact?.email) document.getElementById('contact-email').textContent = data.contact.email;
+        if (data.contact?.phone) document.getElementById('contact-phone').textContent = data.contact.phone;
+
+      } catch (err) {
+        console.warn('Could not load data.json', err);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>
