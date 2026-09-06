@@ -1,22 +1,23 @@
 {
   "branding": {
     "primary_color": "#2563eb",
-    "accent_color": "#0ea5e9"
+    "accent_color": "#0ea5e9",
+    "logo": "https://storage.tally.so/private/gearradar_dig.jfif?id=4RVzRX&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRSVnpSWCIsImZvcm1JZCI6Ilh4YTBwWSIsImlhdCI6MTc4ODcxNDAxNH0.gbECp6IhYpSLduU1L725RTz7umxvmphZhk5G6WrIyXw&signature=553ff1659430cb1416d7f8bd751350abee42cfcb096b0bc7a7e79e0fdd46e4b4"
   },
   "features_toggle": {
     "show_pricing": false,
     "show_whatsapp_float": true
   },
   "media": {
-    "hero_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    "hero_image": "https://storage.tally.so/private/services.html?id=OKMkeg&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik9LTWtlZyIsImZvcm1JZCI6Ilh4YTBwWSIsImlhdCI6MTc4ODcxNDAxNH0.RlyhWlfHg9T9VcTKffyM30l5QfoaD2qtJzXDxgo-Kx0&signature=4efc795dd98bf3c98c16a36f882d0d077c00617bedabd727153f0e18bc0965f7",
     "service_1_image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80",
     "service_2_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
     "service_3_image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80"
   },
   "contact": {
     "email": "kmsd@sdff.com",
-    "phone": "+1234567890",
-    "whatsapp": "+1234567890"
+    "phone": "+447584754377",
+    "whatsapp": "+447584754377"
   },
   "en": {
     "business_name": "Test 550",
